@@ -1,0 +1,2774 @@
+
+
+******* IMPORTANT NOTE *******
+ IN PRODUCTION DON'T RUN SCRIPTS INSTEAD OF THAT IMPORT FROM SIT AND EXPORT IN PRODUCTION.
+
+
+********************************************** DB_SCRIPTS  ********************************************************
+
+
+********************************************** cfg_code_type  ********************************************************
+
+***** cfg_code_type for partyType *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (1,'partyType','partyType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+***** cfg_code_type for month *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (2,'month','month', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+***** cfg_code_type for year *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (3,'year','year', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+***** cfg_code_type for lssType *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (4,'lssType','lssType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+***** cfg_code_type for XMRadioType *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (5,'XMRadioType','XMRadioType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+***** cfg_code_type for LWDType *****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (6,'LDWType','LDWType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for participated_for*****
+
+INSERT INTO public.cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+	VALUES (7, 'participated_for', 'participated_for', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00');
+
+****cfg_code_type for participated_status*****
+
+INSERT INTO public.cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+	VALUES (8, 'participated_status', 'participated_status', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00');
+
+*****cfg_code_type for PaymentStatus  ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (9,'PaymentStatus','PaymentStatus', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*******cfg_code_type for XMRadioParticipationType ***
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (10,'XMRadioParticipationType','XMRadioParticipationType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*****cfg_code_type for LDWDispute******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (11,'Dispute','ldwDispute', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Invoice Type******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (12,'Invoice Type','InvoiceType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Open Dispute******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (13,'Open Dispute','OpenDispute', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+**** cfg_code_type for Application Type ****
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (14,'ApplicationType','ApplicationType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Payment Mode******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (15,'Payment Mode','PaymentMode', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*****cfg_code_type for Gds Type******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (16,'gdsType','gdsType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Gds unit******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (17,'gdsUnit','gdsUnit', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Reservation Type******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (18,'reservationType','reservationType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for PaymentStatusDetail  ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (19,'PaymentStatusDetail','PaymentStatusDetail', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*****cfg_code_type for F68 Aging Report ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (20,'F68Aging','F68 Aging Report', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Location Type ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (21,'Location Type','Location Type', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*****cfg_code_type for bcc Email Id ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (22,'Bcc Email Id','Bcc Email Id', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+*****cfg_code_type for CHECK_NUMBER******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (23,'Check Number','Check Number', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for cost of sales ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (24,'Cost Of Sales','Cost Of Sales', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (25,'Cost Of Sales Schedule Status','Cost Of Sales Schedule Status', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for cp rate - coverage type ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (26,'CP Rate','Coverage Type', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for CP Commission Configuration - Vehicle Type ******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (27,'CP Commission Configuration','Vehicle Type', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for CP Participation Status For Coverage & Associate dues******
+
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (28,'CP Participation Status','Participation Status', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for CP Invoice Types******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (29,'CP Invoice Type','CPInvoiceType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Wizard Transaction Fees Type******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (30,'Wizard Transaction Fees Type','WizardTransactionFeesType', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+*****cfg_code_type for Wizard Transaction Fees Unit******
+INSERT INTO cfg_code_type(code_type_id, code_type, code_type_description, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES (31,'Wizard Transaction Fees Unit','WizardTransactionFeesUnit', 1,'2019-03-06 00:00:00', 1,'2019-03-06 00:00:00');
+
+
+****************************************************************************** cfg_code_value  ************************************************************************
+
+
+***** cfg_code_value for ALA ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 1, 'ALA', 'ALA party Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 1);
+
+***** cfg_code_value for ABG ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 2, 'ABG', 'ABG party Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 1);
+
+***** cfg_code_value for VENDOR ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 3, 'VENDOR', 'Vendor party Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 1);
+
+***** cfg_code_value for January *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 4, '1', 'January', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for February *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 5, '2', 'February', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for March *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 6, '3', 'March', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for April *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 7, '4', 'April', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for May *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 8, '5', 'May', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for June *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 9, '6', 'June', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for July *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 10, '7', 'July', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for August *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 11, '8', 'August', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for September *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 12, '9', 'September', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for October *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 13, '10', 'October', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for November *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 14, '11', 'November', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for December *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 15, '12', 'December', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 2);
+
+***** cfg_code_value for 2018 *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 16, '2018', '2018', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 3);
+
+***** cfg_code_value for 2019 *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 17, '2019', '2019', 1,'2019-03-06 00:00:00', 1, 1, 1,'2019-03-06 00:00:00', 3);
+
+***** cfg_code_value for Full Month ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 18, 'Full Month', 'Full Month lss Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 4);
+
+***** cfg_code_value for Mid Month ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 19, 'Mid Month', 'Mid Month lss Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 4);
+
+
+
+***** cfg_code_value for XM Subscription ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 20, 'XM Subscription', 'XM Radio Subscription Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 5);
+
+
+
+***** cfg_code_value for XM Unlock ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 21, 'XM Unlock', 'XM Radio Unlock Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 5);
+
+
+***** cfg_code_value for AARP LDW Type ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 22, 'AARP', 'AARP LDW Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 6);
+
+
+***** cfg_code_value for CORP LDW Type***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 23, 'CORP', 'CORP LDW Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 6);
+
+
+
+***** cfg_code_value for GOVT LDW Type ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 24, 'GOVT', 'GOVT LDW Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 6);
+
+
+
+*****cfg_code_value for participation_for XM Radio *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 26, 'XM Radio', 'XM Radio', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 7);
+
+
+*****cfg_code_value for participation_for LDW *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 27, 'LDW', 'LDW', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 7);
+
+
+*****cfg_code_value for participation_status Pending *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 28, 'Pending', 'Pending', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 8);
+
+
+*****cfg_code_value for participation_status Approved *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 29, 'Accepted', 'Accepted', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 8);
+
+
+*****cfg_code_value for participation_status Declined *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 30, 'Rejected', 'Rejected', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 8);
+
+**** cfg_code_value for Pending *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 31, 'Pending', 'Pending Payment Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+**** cfg_code_value for Paid *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 32, 'Paid', 'Paid Payment Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+**** cfg_code_value for Disputed *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 33, 'Disputed', 'Disputed Payment Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+**** cfg_code_value for Partially Paid *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 34, 'Partially Paid', 'Partially Paid Payment Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+
+***************cfg_code_value for XMRadioParticipationTypeLuxury**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 35, 'Luxury', 'Luxury', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 10);
+
+***************cfg_code_value for XMRadioParticipationTypeNon-Luxury**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 36, 'Non-Luxury', 'Non-Luxury', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 10);
+
+***************cfg_code_value for Open Dispute**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 37, 'Open Dispute', 'Open Dispute for ldwDispute', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 11);
+
+***************cfg_code_value for Close Dispute**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 38, 'Close Dispute', 'Close Dispute for ldwDispute', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 11);
+
+***************cfg_code_value for LDW**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 39, 'LDW', 'LDW for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+***************cfg_code_value for XMRadio**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 40, 'XM Radio', 'XMRadio for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+
+***************cfg_code_value for Open Dispute**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 41, '72', 'Open Dispute Time', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 13);
+
+***** cfg_code_value for BROKER ***** 
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 42, 'BROKER', 'Broker party Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 1);
+
+***************cfg_code_value for Composite Management System**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 43, 'Composite Management System', 'Composite Management System', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 14);
+
+***************cfg_code_value for Program Management System**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 44, 'Program Management System', 'Program Management System',1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 14);
+
+***************cfg_code_value for Cheque**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 45, 'Cheque', 'Payment Mode Cheque',1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 15);
+
+***************cfg_code_value for Cash**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 46, 'Cash', 'Payment Mode Cash',1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 15);
+
+***************cfg_code_value for ACH**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 47, 'ACH', 'Payment Mode ACH',1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 15);
+
+
+***************cfg_code_value for Gsd Type- GDS**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 48, 'GDS', 'gdsType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 16);
+
+***************cfg_code_value for Gsd Type- Travel Port**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 49, 'Travel Port', 'gdsType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 16);
+
+***************cfg_code_value for Gsd Unit Per Res**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES (50, 'Per Res', 'gdsUnit', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 17);
+
+
+
+***************cfg_code_value for Gsd Unit Per location, Per month**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 51, 'Per location, Per month', 'gdsUnit', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 17);
+
+***************cfg_code_value for Reservation Type- Non Wizard**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 52, 'Non Wizard', 'reservationType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 18);
+
+***************cfg_code_value for Reservation Type- Wizard**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 53, 'Wizard', 'reservationType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 18);
+
+***************cfg_code_value for Reservation Type- ELA**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 54, 'Avis ELA', 'reservationType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 18);
+
+
+**** cfg_code_value for  Success*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 55, 'Success', 'Success Payment Status Details', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 19);
+
+**** cfg_code_value for  Failed*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 56, 'Failed', 'Failed Payment Status Details', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 19);
+
+**** cfg_code_value for  Processing*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 57, 'Processing', 'Processing Payment Status Details', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 19);
+
+
+**** cfg_code_value for 30 Days Aging*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 58, '30', '30 days aging', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 20);
+
+
+**** cfg_code_value for 60 Days Aging*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 59, '60', '60 days aging', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 20);
+
+
+**** cfg_code_value for 90 Days Aging*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 60, '90', '90 days aging', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 20);
+
+
+**** cfg_code_value for Processing *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 61, 'Processing', 'Processing Payment Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+
+***************cfg_code_value for Reservation Type- ELA**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 62, 'EMEA', 'reservationType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 18);
+
+
+***************cfg_code_value for Location Type- ELA**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 63, 'ELA', 'Location Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 21);
+
+***************cfg_code_value for Location Type- NON ELA**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 64, 'NON ELA', 'Location Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 21);
+
+
+***************cfg_code_value for Bcc Email Id**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 65, 'jfurino@abplicensees.com', 'Bcc Email Id', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 22);
+
+
+***************cfg_code_value for Check Number**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 66, '0000000001', 'Check Number', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 23);
+
+***************cfg_code_value for Cost Of Sales- American Airlines**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 67, 'American Airlines', 'Cost Of Sales', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 24);
+
+
+***************cfg_code_value for Cost Of Sales Schedule status in progress**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 68, 'In Progress', 'Cost Of Sales Schedule status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 25);
+
+***************cfg_code_value for Cost Of Sales Schedule status completed**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 69, 'Completed', 'Cost Of Sales Schedule status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 25);
+
+
+***************cfg_code_value for PPP - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 70, 'PPP', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+***************cfg_code_value for ALI - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 71, 'ALI', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+***************cfg_code_value for PAI - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 72, 'PAI', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+***************cfg_code_value for SLI - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 73, 'SLI', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+***************cfg_code_value for PAE - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 74, 'PAE', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+*****cfg_code_type for Cars - Vehicle Type ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 75, 'Cars', 'Vehicle type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 27);
+
+*****cfg_code_type for Vans - Vehicle Type ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 76, 'Vans', 'Vehicle type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 27);
+
+*****cfg_code_type for Trucks - Vehicle Type ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 77, 'Trucks', 'Vehicle type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 27);
+
+*****cfg_code_type for Cargo - Vehicle Type ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 78, 'Cargo', 'Vehicle type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 27);
+
+*****cfg_code_type for CP Participation Staus  ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 79, 'Participated', 'Participation Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 28);
+
+*****cfg_code_type for CP Participation Staus  ******
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 80, 'Not Participated', 'Participation Status', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 28);
+
+***************cfg_code_value for RLI - Coverage Types**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 81, 'RLI', 'Coverage types', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 26);
+
+***************cfg_code_value for CP Invoice Type - Premium Invoice**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 82, 'Premium Invoice', 'CP Invoice Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 29);
+
+***************cfg_code_value for CP Invoice Type - Association Dues Invoice**********
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 83, 'Association Dues Invoice', 'CP Invoice Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 29);
+
+***************cfg_code_value for CP**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 84, 'Counter Product', 'CP Type for Broker Invoice', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+*****cfg_code_value for participation_for CMS*****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 85, 'CMS', 'CMS', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 7);
+
+*****cfg_code_value for participation_for CP Premium *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 86, 'CP Premium', 'CP Premium', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 7);
+
+*****cfg_code_value for participation_for CP Association *****
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 87, 'CP Association', 'CP Association', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 7);
+
+***************cfg_code_value for CP Premium**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 88, 'CP Premium', 'CP Premium for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+***************cfg_code_value for CP Association**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 89, 'CP Association', 'CP Association for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+***************cfg_code_value for Year 2020**********
+INSERT INTO public.cfg_code_value(
+	code_value_id, code_type_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, last_modified_date_time)
+	VALUES (90, 3, '2020', '2020', 1, '2019-03-06 00:00:00+05:30', 1, 1, 1, '2019-03-06 00:00:00+05:30');
+
+
+***************cfg_code_value for CMS Invoice Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 91, 'CMS', 'CMS for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+
+
+***************cfg_code_value for invoice status Returned **********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 92, 'Returned', 'Returned Payment Status For Invoice', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+
+
+***************cfg_code_value for invoice status Failed**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 93, 'Failed', 'Failed Payment Status For Invoice', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 9);
+
+
+
+***************cfg_code_value for Track Payment status Returned **********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 94, 'Returned', 'Returned Payment Status For Track Payment', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 19);
+
+
+***************cfg_code_value for CMS ABG Invoice Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 95, 'CMS ABG', 'CMS ABG for InvoiceType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 12);
+
+
+***************cfg_code_value for Non ELA Wizard Transaction Fees Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 96, 'Non ELA', 'Non ELA for Wizard Transaction Fees Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 30);
+
+
+***************cfg_code_value for ELA Wizard Transaction Fees Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 97, 'ELA', 'ELA for Wizard Transaction Fees Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 30);
+
+
+***************cfg_code_value for USA Wizard Transaction Fees Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 98, 'USA', 'USA for Wizard Transaction Fees Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 30);
+
+
+***************cfg_code_value for CA 1 Wizard Transaction Fees Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 99, 'CA 1', 'CA 1 for Wizard Transaction Fees Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 30);
+
+
+***************cfg_code_value for CA 2 Wizard Transaction Fees Type**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES ( 100, 'CA 2', 'CA 2 for Wizard Transaction Fees Type', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 30);
+
+
+***************cfg_code_value for Wizard Transaction Fees Unit for Per Closed RA **********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES (101, 'Per Closed RA', 'WizardTransactionFeesUnit', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 31);
+
+
+***************cfg_code_value for Gsd Type- Travel Port**********
+
+INSERT INTO cfg_code_value(code_value_id, code_value_type, code_value_description, created_by, created_date, is_display, is_editable, last_modified_by, 
+last_modified_date_time, code_type_id)
+VALUES (102, 'Direct Connect - Flightbridge', 'gdsType', 1,'2019-03-06 00:00:00', 1, 1,1,'2019-03-06 00:00:00', 16);
+
+
+
+
+************************************************************************  mst_party  **********************************************************************************
+
+***** party for ALA ***** 
+
+INSERT INTO mst_party(party_name, party_type_id, status, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES ('ALA', 1, TRUE, 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00');
+
+***** party for ABG ***** 
+INSERT INTO mst_party(party_name, party_type_id, status, created_by, created_date, last_modified_by, last_modified_date_time)
+VALUES ('ABG', 2, TRUE, 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00');
+
+********************************************mst_notifyevent**********************************************************
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (1, 'Create User', 'New user Created',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (2, 'Forgot Password', 'New Password Generated', 1, '2019-03-06 00:00:00', 1,'2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (3, 'Xm Radio Participation', 'Invitation For Xm Radio Participation', 1, '2019-03-06 00:00:00', 1,'2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (4, 'Ldw Participation', 'Invitation For Ldw Participation', 1, '2019-03-06 00:00:00', 1,'2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (5, 'Xm Radio Acceptance', 'Invitation Accepted For Xm Radio', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (6, 'Ldw Acceptance', 'Invitation Accepted For Ldw', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (7, 'Billing Invoice', 'Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (8, 'Billing Invoice', 'Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (9, 'Ldw Payment Reminder', 'Payment Reminder',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (10, 'Xm Radio Payment Reminder', 'Payment Reminder',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (11, 'F68 Invoice', 'F68 Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (12, 'F68 Invoice Accepted', 'F68 Invoice Accepted',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (13, 'F68 Invoice Rejected', 'F68 Invoice Rejected',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (14, 'Validate LSS Exception Report', 'Validate LSS Exception Report',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (15, 'Validate LSS Exception Approved', 'Validate LSS Exception Approved',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (16, 'Validate LSS Exception Rejected', 'Validate LSS Exception Rejected',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (17, 'CP Association Dues Invoice', 'CP Association Dues Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (18, 'CP Premium Invoice', 'CP Premium Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (19, 'CMS Participation', 'Invitation For CMS Participation',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (20, 'Xm Radio Broker Invoice', 'Xm Radio Broker Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (21, 'Ldw Broker Invoice', 'Ldw Broker Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (22, 'CMS Acceptance', 'Invitation Accepted For CMS',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (23, 'CMS Billing Invoice', 'Invoice',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (24, 'CMS Payment Reminder', 'Payment Reminder',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (25, 'CP Premium Payment Reminder', 'Payment Reminder',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+INSERT INTO public.mst_notifyevent(
+	notify_event_id, event_name, description, created_by, created_date, last_modified_by, last_modified_date_time, is_active)
+	VALUES (26, 'CP Association Dues Payment Reminder', 'Payment Reminder',  1,  '2019-03-06 00:00:00',1, '2019-03-06 00:00:00',true);
+
+
+
+
+
+*****************************************mst_notifytemplate***************************************************************************************
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (1, 'email', 'New user Created', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:username:}} </span></h5></div><p>Your account is successfully activated please use below credential for login in ALA. </p><h5 class="password" style="margin-left: 30px; font-weight: bold">User Name: <span style="color:#23c4a2; font-size:20px">{{:username:}}  </span></h5><h5 class="password" style="margin-left: 30px; font-weight: bold">Password: <span style="color:#23c4a2; font-size:20px">{{:password:}} </span></h5><p>Please follow the below link to login with your username and password.</p><p><a class="btn btn-primary" href="http://49.248.20.173/#/login" role="button">Click Here</a></p><p style="margin-top: 30px"> <h5 style="font-weight: bold">Thanks & Regards </h5><img src="ABP-logo.png" alt="logo" height="auto" width="150" /></p> </div> </body> </html>', 'User Credentials', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 1);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (2, 'email', 'New Password Generated', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index:999;overflow:hidden;}p{color:#424242;padding:7px;}.password{text-decoration:none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:username:}},</span></h5></div><p>We got a request to reset your password, please use below temporary password to reset your new password.</p><h5 class="password" style="margin-left: 30px; font-weight: bold">Current Password: <span style="color:#23c4a2; font-size:20px">{{:password:}}</span></h5><p>You have requested a password reset, please follow the below link to reset your password.</p><p><a class="btn btn-primary" href="{{:login_link:}}" role="button">Click Here</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5> <img src="http://18.208.207.50/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Forgot Password', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 2);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (3, 'email', 'Xm invitation Link','<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background-color: #f5faf9;font-family: Arial, Helvetica, sans-serif;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}.form .primary{background: #5cb85c;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}.form .primary1{background: red;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}}, </span></h5></div><p>This is regarding XM Radio Program enrolment. As you know, XM Radio Program is renewed on yearly basis.</p><p>Kindly let us know whether you want to participate in the new XM Radio Program by clicking on the buttons provided below:</p><p><a class="primary" href="{{:invite_link:}}" role="button">Accept</a><a class="primary1" href="{{:decline_link:}}" role="button">Reject</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards</h5><img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Xm Invitation', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 3);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (4, 'email', 'Ldw invitation Link','<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background-color: #f5faf9;font-family: Arial, Helvetica, sans-serif;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}.form .primary{background: #5cb85c;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}.form .primary1{background: red;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}}, </span></h5></div><p>This is a once time request, if you would like to participate in the LDW program, please click accept below and when prompted select which coverages you want to participate in (Corp, Govt, AARP).</p><p>You will receive an email with a user ID and password.</p><p><a class="primary" href="{{:invite_link:}}" role="button">Accept</a><a class="primary1" href="{{:decline_link:}}" role="button">Decline</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards</h5><img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Ldw Invitation', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 4);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (5, 'email', 'Invitation Accepted For Xm Radio', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body{background-color: #f5faf9;}.form{margin-left: 30px;margin-right:30px;padding:15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:username:}},</span></h5></div><p>Thank you for subscribe XM Radio Program. </p><p>Please follow the below link to login with your username and password.</p><p><a class="primary" href="{{:login_link:}}" role="button">Click Here</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Xm Radio Acceptance',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 5);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (6, 'email', 'Invitation Accepted For Ldw', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:username:}},</span></h5></div><p>Thank you for subscribe LDW Program.</p><p>Please follow the below link to login with your username and password.</p><p><a class="primary" href="{{:login_link:}}" role="button">Click Here</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5> <img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Ldw Acceptance',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 6);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (7, 'email', 'Billing Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your LDW invoice and data is now available to view in the portal, please log in and review your billing and data.</p><p>Any ?’s let me know</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'LDW Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 7);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (8, 'email', 'Billing Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your Sirius XM invoice and data is now available to view in the portal, please log in and review your billing and data.</p><p>Any ?’s let me know</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'XM Radio Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 8);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (9, 'email', 'Payment Reminder', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>This is a reminder that you have an open LDW invoice.  Please log on and review the data and remit payment.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'Ldw Payment Reminder',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 9);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (10, 'email', 'Payment Reminder', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>This is a reminder that you have an open Sirius XM invoice.  Please log on and review the data and remit payment.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'Xm Radio Payment Reminder',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 10);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (11, 'email', 'F68 Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>The invoice number {{:username:}} has been generated for the date {{:decline_link:}} by {{:login_link:}} and is attached herewith for your processing by logging into the system.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 11);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (12, 'email', 'F68 Invoice Accepted', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>The invoice number {{:username:}} has been accepted by {{:login_link:}}.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 12);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (13, 'email', 'F68 Invoice Rejected', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>The invoice number {{:username:}} has been rejected by {{:login_link:}}.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 13);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (14, 'email', 'Validate LSS Exception Report', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:username:}},</span></h5></div><p>{{:vendor_name:}} has submitted the validated {{:password:}} LSS for the month of {{:login_link:}} {{:decline_link:}} for your approval.</p><p>Please find the exception report for transactions attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 14);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (15, 'email', 'Validate LSS Exception Approved', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>The triggered exception(s) are accepted by ABG.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 15);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (16, 'email', 'Validate LSS Exception Rejected', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>The triggered exception(s) are rejected by ABG.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'F68 Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 16);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (17, 'email', 'CP Association Dues Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your Association Dues Invoice is generated for the month of {{:login_link:}} {{:decline_link:}}.</p><p>Please find the invoice attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CP Association Dues Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 17);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (18, 'email', 'CP Premium Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your Premium Invoice is generated for the month of {{:login_link:}} {{:decline_link:}}.</p><p>Please find the invoice attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CP Premium Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 18);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (19, 'email', 'CMS invitation Link','<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background-color: #f5faf9;font-family: Arial, Helvetica, sans-serif;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}.form .primary{background: #5cb85c;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}.form .primary1{background: red;color: white;padding: 10px; margin:10px;display: inline-block;border-radius: 3px;text-decoration: none;font-size: 16px;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}}, </span></h5></div><p>This is regarding CMS enrolment.</p><p>Kindly let us know whether you want to participate in the new CMS Program by clicking on the buttons provided below:</p><p><a class="primary" href="{{:invite_link:}}" role="button">Accept</a><a class="primary1" href="{{:decline_link:}}" role="button">Reject</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards</h5><img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'CMS Invitation', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 19);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (20, 'email', 'Xm Radio Broker Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your Invoice is generated for the month of {{:login_link:}} {{:decline_link:}}.</p><p>Please find the invoice attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'Xm Radio Broker Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 20);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (21, 'email', 'Ldw Broker Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your Invoice is generated for the month of {{:login_link:}} {{:decline_link:}}.</p><p>Please find the invoice attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'Ldw Broker Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 21);
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (22, 'email', 'Invitation Accepted For CMS', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body{background-color: #f5faf9;}.form{margin-left: 30px;margin-right:30px;padding:15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:username:}},</span></h5></div><p>Thank you for subscribe CMS Program. </p><p>Please follow the below link to login with your username and password.</p><p><a class="primary" href="{{:login_link:}}" role="button">Click Here</a></p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://49.248.20.173/assets/dist/img/logo.png" alt="logo" height="auto" width="150" /></p></div></body></html>', 'Xm Radio Acceptance',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 22);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (23, 'email', 'CMS Billing Invoice', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>To: <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>Your CMS Invoice is generated for the month of {{:login_link:}} {{:decline_link:}}.</p><p>Please find the invoice attached herewith for your reference.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CMS Invoice',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 23);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (24, 'email', 'CMS Payment Reminder', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>This is a reminder that you have an open CMS invoice.  Please log on and review the data and remit payment.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CMS Payment Reminder',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 24);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (25, 'email', 'CP Premium Payment Reminder', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>This is a reminder that you have an open CP Premium invoice.  Please log on and review the data and remit payment.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CP Premium Payment Reminder',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 25);
+
+
+
+INSERT INTO public.mst_notifytemplate(
+	notify_template_id, notify_type, description, notify_template, notify_template_name, created_by, created_date, last_modified_by, last_modified_date_time, is_active, notify_event_id)
+	VALUES (26, 'email', 'CP Association Dues Payment Reminder', '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><style>body {background-color: #f5faf9;}.form{margin-left: 30px;margin-right: 30px;padding: 15px;position:center;z-index: 999;overflow: hidden;}p{color: #424242;padding: 7px;}.password{text-decoration: none;}</style></head><body><div><div class="form"><div class="from"><h5>Dear <span style="color:#60aaff" >{{:vendor_name:}},</span></h5></div><p>This is a reminder that you have an open CP Association Dues invoice.  Please log on and review the data and remit payment.</p><p style="margin-top: 30px"><h5 style="font-weight: bold">Thanks & Regards </h5><img src="http://192.168.12.54/assets/dist/img/logo.png" alt="logo" height="auto" width="150"/></p></div></body></html>', 'CP Association Dues Payment Reminder',  1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', true, 26);
+
+
+
+
+
+
+****************************************************************mst_role******************************************************************
+INSERT INTO public.mst_role(
+role_id, party_type, role_name, created_by, created_date, last_modified_by, last_modified_date_time, status)
+VALUES (1, 1, 'admin', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', TRUE);
+
+INSERT INTO public.mst_role(
+role_id, party_type, role_name, created_by, created_date, last_modified_by, last_modified_date_time, status)
+VALUES (24, 3, 'Program Management License User', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', TRUE);
+
+INSERT INTO public.mst_role(
+role_id, party_type, role_name, created_by, created_date, last_modified_by, last_modified_date_time, status, application_id)
+VALUES (43, 3, 'Recon Subscription Plan', 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', TRUE, 43);
+
+****************************************************************map_user_role*******************************************************************
+
+INSERT INTO public.map_user_role(
+id, created_by, created_date, last_modified_by, last_modified_date_time, role_id, user_id)
+VALUES (1, 1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 1);
+
+
+
+********************************************mst_component**************************************
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (1, 'Composite Management', 0, 'NA', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (2, 'Program Management', 0, 'NA', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (3, 'User Management', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (4, 'Master Maintainance', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (5, 'Fees & Commission', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (6, 'Vendor List', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (7, 'Brand List', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (8, 'Geo Location Master', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (9, 'Major Category', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (10, 'Sub Category', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (11, 'User List', 3, 'User Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (12, 'Role List', 3, 'User Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (13, 'Threshold Values', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (14, 'User Management', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (15, 'Master Maintainance', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (16, 'User List', 14, 'User Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (17, 'Role List', 14, 'User Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (18, 'Brand List', 15, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (19, 'Geo Location Master', 15, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (20, 'Manage LSS', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (21, 'Upload LSS-RA-Res', 20, 'Manage LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (22, 'Validate LSS', 20, 'Manage LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (23, 'Reports', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (24, 'Audit Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (25, 'Threshold Value', 13, 'Threshold Values', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (26, 'Fees & Commission', 5, 'Fees & Commission', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (27, 'Upload History', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (28, 'Process Invoice', 20, 'Manage LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (29, 'Manage Exception', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (30, 'Validate Exception', 29, 'Manage Exception', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (31, 'Raise Debit/Credit Note', 29, 'Manage Exception', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (32, 'Approve LSS', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (33, 'Approve LSS', 32, 'Approve LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (34, 'Vendor List', 15, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (35, 'Participated Vendor', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (36, 'LDW Participated', 35, 'Participated Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (37, 'XM Radio Participated', 35, 'Participated Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (38, 'Manage Broker', 15, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (39, 'Configuration', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (40, 'LDW Rate', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (41, 'XM Radio Rate', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (43, 'LDW Report', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (44, 'XM Radio Transaction(M)', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (45, 'Luxury Subscription', 44, 'XM Radio Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (46, 'Successful Activation', 44, 'XM Radio Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (47, 'Billing', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (48, 'LDW Billing', 47, 'Billing', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (49, 'XM Radio Billing', 47, 'Billing', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (50, 'Track Payment', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (51, 'Approve F68', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (52, 'Payment Receivable', 50, 'Track Payment', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (53, 'Bill Payable', 50, 'Track Payment', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (54, 'License User', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (55, 'Invoice', 54, 'License User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (56, 'LDW Report', 43, 'LDW Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (57, 'Program Management Upload History', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (58, 'Program Management Upload History', 57, 'Upload History', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (59, 'F68 Aging Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (60, 'State Contract', 43, 'LDW Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (61, 'License User', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1 ,'Licensees View');
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (62, 'Invoice', 61, 'License User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1 ,'Licensee Invoice Generated By ALA');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (63, 'Track Payment', 61, 'License User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1 ,'Track Payment For Licensee');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (64, 'Broker User', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Broker View');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (65, 'Monthly Transaction Data', 64, 'Broker User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1 ,'Monthly Transaction Data for Broker');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (66, 'Invoice', 64, 'Broker User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1 ,'Broker Invoice Generated By ALA');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (67, 'Track Payment', 64, 'Broker User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Track Payment For Broker');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (68, 'Composite Management Dashboard', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Composite Management Dashboard');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (69, 'PMS Dashboard', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Program Management Dashboard');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (70, 'Composite Management Dashboard', 68, 'Composite Management Dashboard', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Composite Management Dashboard');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (71, 'PMS Dashboard', 69, 'PMS Dashboard', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Program Management Dashboard');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (72, 'Configuration', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Composite Management Configuration');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (73, 'GDS', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'GDS');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (74, 'Reservation', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Reservation');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (75, 'FTP', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'FTP');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (76, 'Manage F68', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Manage F68');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (77, 'Manage F68',76, 'Manage F68', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Manage F68');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (78, 'Party Type List', 4, 'Master maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Party Type List');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (79, 'LSS Reconciled Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'LSS Reconciled Report');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (80, 'LSS Exception Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'LSS Exception Report');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (81, 'Approve F68', 51, 'Approve F68', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Approve F68');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (82, 'AR Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'AR Report');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (83, 'Cost Of Sales Report', 23, 'Reports', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Cost Of Sales Report');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (84, 'Cost Of Sales', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Cost Of Sales');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (85, 'F68 Category', 4, 'Master Maintainance', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'F68 Category');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (86, 'Assign Vendor', 3, 'User Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Assign Vendor');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (87, 'CP Transaction(M)', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Transaction(M)');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (88, 'Upload Transaction(M)', 87, 'CP Transaction(M)', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Upload Transaction(M)');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (89, 'Calculate Premium', 87, 'CP Transaction(M)', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Calculate Premium');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (90, 'CP Association Dues(M)', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Association Dues(M)');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (91, 'Calculate Association Dues', 90, 'CP Association Dues(M)', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Calculate Association Dues');
+
+
+
+
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (94, 'CMS', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CMS');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (95, 'CMS Participation', 94, 'CMS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CMS Participation');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (96, 'CMS Billing', 94, 'CMS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CMS Billing');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (97, 'Licensee View CMS Billing', 94, 'CMS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Licensee View CMS Billing');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (98, 'ABG CMS Billing', 94, 'CMS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'ABG CMS Billing');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (99, 'ABG View CMS Billing', 94, 'CMS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'ABG View CMS Billing');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (100, 'Subscription Plan', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Subscription Plan');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (101, 'Accounting Feed', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Accounting Feed');
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (102, 'CP Rate', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Rate');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (103, 'CP Commission', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Commission');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (104, 'CP Association Fees', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Association Fees');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (105, 'CP T&M Revenue Rate', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP T&M Revenue Rate');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (106, 'CP Upload T&M Revenue', 39, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Upload T&M Revenue');
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (107, 'CP Participation', 35, 'Participated Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Participation');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (108, 'CP Invoice', 61, 'Licensee User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Invoice');
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (109, 'CP ABP Invoice', 64, 'Broker View', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP ABP Invoice');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (110, 'Upload T&M Revenue', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Upload T&M Revenue');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (111, 'Wizard Transaction Fees', 72, 'Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Wizard Transaction Fees');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (112, 'Payment Receivable', 1, 'Composite Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Payment Receivable');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (113, 'Payment Receivable Composite Management', 112, 'Payment Receivable', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Payment Receivable');
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (114, 'Upload History', 27, 'Upload History', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'Upload History');
+
+
+
+****************************************mst_component_operation*******************************************
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (1, 'Add User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 11);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (2, 'Edit User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 11);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (3, 'Add Role', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 12);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (4, 'Edit Role', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 12);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (5, 'Upload Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (6, 'Upload LDB', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (7, 'Add New Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (8, 'Edit Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (9, 'Location Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (10, 'Add Brand', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 7);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (11, 'Edit Brand', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 7);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (12, 'Add Major Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 9);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (13, 'Edit Major Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 9);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (14, 'Add Sub Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 10);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (15, 'Edit Sub Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 10);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (19, 'Add User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 16);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (20, 'Edit User', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 16);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (21, 'Add Role', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 17);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (22, 'Edit Role', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 17);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (23, 'Add Brand', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 18);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (24, 'Edit Brand', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 18);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (25, 'Role Access', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 12);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (26, 'Role Access', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 17);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (28, 'Upload Reservation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (29, 'Upload Licensee Settlement Statement', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (30, 'Upload Rental Agreement', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (31, 'Validate LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (32, 'Submit', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (33, 'View Edit Exception', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (34, 'Lock & Send for Approval', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (35, 'Edit Validate LSS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (36, 'Add Threshold Value', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 25);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (37, 'Edit Threshold Value', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 25);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (38, 'Delete Threshold Value', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 25);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (39, 'Upload Sheet', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 26);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (40, 'Download', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 27);
+
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (41, 'Add Fees & Commission', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 26);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (42, 'Export to PDF', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 28);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (43, 'Approve', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 30);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (44, 'Decline', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 30);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (45, 'Export to PDF', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 31);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (46, 'Approve', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 33);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (47, 'Decline', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 33);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (48, 'Upload Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (49, 'Upload LDB', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (50, 'Add New Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (51, 'Edit Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (52, 'Location Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (53, 'Send XM Radio Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (54, 'Send LDW Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (55, 'Send XM Radio Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (56, 'Send LDW Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (57, 'Payment Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (59, 'Add Broker', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 38);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (60, 'Edit Broker', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 38);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (61, 'Upload LDW Rate', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 40);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (62, 'Add Xm Radio Rate', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 41);
+
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (65, 'Upload LDW Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 56);
+
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (67, 'Edit LDW Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 56);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (68, 'Upload Subscription Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 45);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (70, 'Upload Unlock Data Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 46);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (72, 'Payment Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (73, 'Generate Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 48);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (74, 'Send Invoice to Licensee', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 48);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (75, 'View Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 48);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (76, 'XM_RADIO_Generate Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 49);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (77, 'XM_RADIO_Send Invoice to Licensee', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 49);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (78, 'Open Dispute', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 55);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (79, 'View Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 55);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (80, 'View Transaction', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 55);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (81, 'Remark', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 55);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (82, 'Resolve Dispute', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (83, 'Payment_Receivable Remark', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (84, 'Payment_Receivable View Transaction', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (85, 'Payment Summary', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (86, 'Add Payment Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (87, 'Send Reminder', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 52);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (88, 'Download', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 58);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (89, 'Add GDS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 73);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (90, 'Edit GDS', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 73);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (91, 'Add Reservation Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 74);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (92, 'Edit Reservation Configuration', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 74);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (93, 'Upload FTP', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 75);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (94, 'Edit FTP', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 75);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (95, 'Add New F68', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 77);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (96, 'Edit F68', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 77);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (97, 'Upload F68', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 77);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (98, 'Generate New Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 83);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (99, 'View Cost Of Sales Report', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 83);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (100, 'Upload Cost Of Sales', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 84);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (101, 'Edit Cost Of Sales', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 84);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (102, 'Add F68 Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 85);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (103, 'Edit F68 Category', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 85);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (104, 'Add Party Type', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 78);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (105, 'Edit Party Type', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 78);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (106, 'Assign Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 86);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (107, 'Delete Action', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 86);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (108, 'Add Accounting Feed', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 101);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (109, 'Delete Accounting Feed', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 101);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (110, 'Add Subscription Plan', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 100);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (111, 'Inactivate Vendor', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 95);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (112, 'Accept Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 95);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (113, 'Reject Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 95);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (114, 'Send Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 96);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (115, 'Send Reminder', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 96);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (116, 'Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 96);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (117, 'Generate Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 96);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (118, 'Add Payment Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 96);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (119, 'Pay', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 97);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (120, 'Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 98);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (121, 'Generate Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 98);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (122, 'Add Payment Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 98);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (123, 'Pay', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 99);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (124, 'Upload CP Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 107);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (125, 'Edit CP Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 107);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (126, 'Upload CP Rate', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 102);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (127, 'Upload CP Commission', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 103);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (128, 'Add Association Fees', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 104);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (129, 'Add CP T&M Revenue Rate', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 105);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (130, 'Delete CP T&M Revenue Rate', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 105);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (131, 'Upload T&M', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 106);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (132, 'Upload Monthly Trends', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 106);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (133, 'Upload State Contract', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 60);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (134, 'Upload Transaction(M)', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 88);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (135, 'CP Premium Send Invoice to Licensee', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 89);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (136, 'Generate Monthly Premium', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 89);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (137, 'CP Premium Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 89);
+
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (138, 'Generate Broker Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 89);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (139, 'Calculate Premium Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 89);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (140, 'View Dues Details', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 91);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (141, 'Generate Association Dues', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 91);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (142, 'Association Dues Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 91);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (143, 'Association Dues Send Invoice to Licensee', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 91);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (144, 'LDW Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 48);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (145, 'LDW Generate Broker Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 48);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (146, 'XM Radio Upload Status', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 49);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (147, 'XM Radio Generate Broker Invoice', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 49);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (148, 'Upload T&M', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 110);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (149, 'Upload Monthly Trends', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 110);
+
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (150, 'Add Wizard Transaction Fees', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 111);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (151, 'Edit Wizard Transaction Fees', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 111);
+
+
+INSERT INTO public.mst_component_operation(
+	component_operation_id, component_operation_name, created_date, created_by, last_modified_date_time, last_modified_by, component_id)
+	VALUES (152, 'Send CMS Participation', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6);
+
+
+
+****************************************mst_role_module_permissions*******************************************
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (2, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 7, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (3, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 8, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (4, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 9, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (5, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 10, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (6, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 11, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (7, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 12, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (8, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 16, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (9, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 17, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (10, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 18, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (11, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 19, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (12, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (13, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (14, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 24, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (15, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 25, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (16, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 26, 1);
+
+INSERT INTO public.mst_role_module_permissions(
+	role_module_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_id, role_id)
+	VALUES (17, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 27, 1);
+
+
+
+****************************************mst_role_operation_permissions*******************************************
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (1, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 1, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (2, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 2, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (3, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 3, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (4, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 4, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (5, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 5, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (6, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 6, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (7, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 7, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (8, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 8, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (9, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 9, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (10, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 10, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (11, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 11, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (12, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 12, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (13, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 13, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (14, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 14, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (15, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 15, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (16, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 19, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (17, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 20, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (18, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 21, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (19, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 22, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (20, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 23, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (21, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 24, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (22, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 25, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (23, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 26, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (24, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 28, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (25, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 29, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (26, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 30, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (27, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 31, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (28, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 32, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (29, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 33, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (30, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 34, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (31, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 35, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (32, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 36, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (33, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 37, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (34, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 38, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (35, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 39, 1);
+
+INSERT INTO public.mst_role_operation_permissions(
+
+	role_operation_permission_id, created_date, created_by, last_modified_date_time, last_modified_by, component_operation_id, role_id)
+
+	VALUES (36, '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1, 40, 1);
+
+
+
+
+
+
+**************************************Update script for Component*************************
+
+
+UPDATE public.mst_component
+	SET  component_name='Luxury Subscription'
+	WHERE component_id=45;
+	
+UPDATE public.mst_component
+	SET  component_name='Successful Activation'
+	WHERE component_id=46;
+
+
+***********************************REMOVED Scripts**************************
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (93, 'CP ABP Invoice',  2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP ABP Invoice');
+
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by)
+	VALUES (42, 'Report', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1);
+
+
+
+INSERT INTO public.mst_component(
+	component_id, component_name, parent_component_id, parent_component_name, created_date, created_by, last_modified_date_time, last_modified_by, component_description)
+	VALUES (92, 'CP Invoice', 2, 'Program Management', '2019-03-06 00:00:00', 1, '2019-03-06 00:00:00', 1,'CP Invoice');
+
